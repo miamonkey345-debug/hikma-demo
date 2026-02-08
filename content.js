@@ -71,17 +71,6 @@ window.SITE = {
           price: "$2.99",
           image: "images/Logo.png" // ✅ MENU ITEM IMAGE HERE
         },
-        {
-          name: "Mango Smoothie",
-          desc: "Fresh mango blended smooth.",
-          price: "$4.99",
-          image: "images/Logo.png" // ✅ MENU ITEM IMAGE HERE
-        },
-        {
-          name: "Avocado MilkShake Smoothie",
-          desc: "Fresh avocado blended MIlkshake.",
-          price: "$4.99",
-          image: "images/Logo.png" // ✅ MENU ITEM IMAGE HERE
         }
       ]
     }
@@ -99,10 +88,10 @@ window.SITE = {
     note: "Call ahead for large orders or catering.",
     phone: "(Sample phone number)",
     email: "contact@restaurant.com)",
-    address: "3020 W Saint Germain St 56301 St. Cloud, MN",
+    address: "St. Cloud, MN",
     socials: [
-      { label: "Instagram", url: "https://www.instagram.com/gotlimts.mo/" },
-      { label: "TikTok", url: "https://www.tiktok.com/@gotlimitsmo?lang=en" },
+      { label: "Instagram", url: "https://www.instagram.com/" },
+      { label: "TikTok", url: "https://www.tiktok.com/" },
       { label: "Facebook", url: "https://www.facebook.com/" }
     ]
   },
@@ -111,6 +100,7 @@ window.SITE = {
   gallery: [
     "images/Logo.png",
     "images/Logo.png",
-    "images/Logo.PNG",
+    "images/Logo.png",
   ],
 };
+
