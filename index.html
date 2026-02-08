@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title id="pageTitle">Restaurant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#top">
+  <img src="images/Logo.png" alt="Hikma Cafe Logo" class="navLogo">
+  <span id="brandName">Hikma Cafe</span>
+</a>
+
+      <button class="menuBtn" id="menuBtn" aria-label="Open menu">☰</button>
+      <nav class="links" id="navLinks">
+        <a href="#menu">Menu</a>
+        <a href="#hours">Hours</a>
+        <a href="#gallery">Photos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img class="heroImg" id="heroImg" alt="Restaurant photo" />
+      <div class="heroOverlay">
+        <div class="container heroContent">
+          <h1 id="heroHeadline">Welcome</h1>
+          <p id="heroSubhead">Good food, good vibes.</p>
+          <div class="heroBtns">
+            <a class="btn" href="#menu">View Menu</a>
+            <a class="btn outline" id="callBtn" href="#">Call</a>
+          </div>
+          <p class="heroMeta" id="heroMeta"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 id="aboutTitle">About</h2>
+        <p class="muted" id="aboutText"></p>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Menu</h2>
+          <p class="muted" id="menuNote"></p>
+        </div>
+
+        <div class="menuGrid" id="menuGrid"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="hours">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Hours</h2>
+          <p class="muted">Tap to copy address below.</p>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Open Hours</h3>
+            <ul class="list" id="hoursList"></ul>
+          </div>
+
+          <div class="card">
+            <h3>Location</h3>
+            <p class="muted" id="addressText" style="cursor:pointer;"></p>
+            <a class="link" id="mapsLink" target="_blank" rel="noreferrer">Open in Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Photos</h2>
+          <p class="muted">
+        </div>
+        <div class="gallery" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contact">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Contact</h2>
+          <p class="muted" id="contactNote"></p>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Call</h3>
+            <p class="muted" id="phoneText"></p>
+            <a class="btn" id="phoneLink" href="#">Call Now</a>
+          </div>
+
+          <div class="card">
+            <h3>Email</h3>
+            <p class="muted" id="emailText"></p>
+            <a class="btn outline" id="emailLink" href="#">Email Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footerRow">
+        <p class="muted" id="footerText">© Manscaven Art Design</p>
+        <div class="footerLinks" id="socialLinks"></div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
