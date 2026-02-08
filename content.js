@@ -99,7 +99,7 @@ window.SITE = {
     note: "Call ahead for large orders or catering.",
     phone: "320-291-7185",
     email: "contact@restaurant.com)",
-    address: "3020 W Saint Germain St 56301 St. Cloud, MN",
+    address: "St. Cloud, MN",
     socials: [
       { label: "Instagram", url: "https://www.instagram.com/" },
       { label: "TikTok", url: "https://www.tiktok.com/" },
