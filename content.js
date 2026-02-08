@@ -71,6 +71,17 @@ window.SITE = {
           price: "$2.99",
           image: "images/Logo.png" // ✅ MENU ITEM IMAGE HERE
         },
+        {
+          name: "Mango Smoothie",
+          desc: "Fresh mango blended smooth.",
+          price: "$4.99",
+          image: "images/Logo.png" // ✅ MENU ITEM IMAGE HERE
+        },
+        {
+          name: "Avocado MilkShake Smoothie",
+          desc: "Fresh avocado blended MIlkshake.",
+          price: "$4.99",
+          image: "images/Logo.png" // ✅ MENU ITEM IMAGE HERE
         }
       ]
     }
@@ -86,9 +97,9 @@ window.SITE = {
 
   contact: {
     note: "Call ahead for large orders or catering.",
-    phone: "(Sample phone number)",
+    phone: "320-291-7185",
     email: "contact@restaurant.com)",
-    address: "St. Cloud, MN",
+    address: "3020 W Saint Germain St 56301 St. Cloud, MN",
     socials: [
       { label: "Instagram", url: "https://www.instagram.com/" },
       { label: "TikTok", url: "https://www.tiktok.com/" },
@@ -103,4 +114,3 @@ window.SITE = {
     "images/Logo.png",
   ],
 };
-
